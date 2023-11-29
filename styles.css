@@ -1,0 +1,12 @@
+body {
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+    Padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
