@@ -47,3 +47,18 @@ nav li {
     font-size: 24px;
     margin-bottom: 10px;
 }
+
+.progress {
+    background-color: #808080;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #000;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
