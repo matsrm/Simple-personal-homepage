@@ -17,8 +17,10 @@ body {
 }
 
 #skills.container {
-    margin-left: 200px;
-    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 header {
@@ -56,6 +58,12 @@ nav li:hover {
 
 .skill {
     margin-bottom: 20px;
+}
+
+#about {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ededed;
 }
 
 .skill h3 {
