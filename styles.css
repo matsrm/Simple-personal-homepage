@@ -38,3 +38,12 @@ nav li {
     display:inline;
     margin-right: 10px;
 }
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
