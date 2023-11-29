@@ -26,3 +26,8 @@ function navigateToSlide(index) {
 
     slideInterval = setInterval(nextSlide, 3000);
 }
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    navigateToSlide(currentSlide);
+}
