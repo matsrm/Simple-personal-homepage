@@ -53,3 +53,22 @@ h2 {
     color: #fff;
     padding: 20px;
 }
+
+.dot-navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot-navigation-item {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin 0 5px;
+    cursor: pointer;
+}
+
+.dot-navigation-item.active {
+    background-color: #555;
+}
