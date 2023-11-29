@@ -7,8 +7,8 @@ The goal of this project is to practice building simple webapps using HTML, CSS 
 ## About The Project
 
 #### Portfolio section
-- Raffle App
-- Drumset
+- ![Raffle App](https://github.com/matsrm/Raffle-app)
+- ![Drumset](https://github.com/matsrm/Drums)
 
 ### Raffle app
 
