@@ -1,4 +1,4 @@
-const slides = document.getElementsByClassName(".slide");
+const slides = document.querySelectorAll(".slide");
 const dotsContainer = document.querySelector(".dot-navigation");
 let currentSlide = 0;
 let slideInterval;
@@ -24,10 +24,12 @@ function navigateToSlide(index) {
 
     currentSlide = index;
 
-    slideInterval = setInterval(nextSlide, 3000);
+    slideInterval = setInterval(nextSlide, 7000);
 }
 
 function nextSlide() {
     currentSlide = (currentSlide + 1) % slides.length;
     navigateToSlide(currentSlide);
 }
+
+slideInterval = setInterval(nextSlide, 7000);
