@@ -17,6 +17,11 @@ body {
     text-align: center;
 }
 
+#skills.container {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 header {
     text-align: center;
     background-color: #000;
@@ -55,8 +60,8 @@ nav li:hover {
 }
 
 .skill h3 {
-    font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .progress {
