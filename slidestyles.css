@@ -18,8 +18,14 @@ h2 {
     font-size: 24px;
 }
 
-.slider p a{
-    margin: 0;
+.slider a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.slider a:hover {
+    text-decoration: underline;
 }
 
 .slide {
@@ -51,14 +57,14 @@ h2 {
     justify-content: center;
     margin-bottom: 50px;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.75);
     color: #FFF;
 }
 
 .dot-navigation {
     display: flex;
     justify-content: center;
-    margin-top: -40px;
+    margin-bottom: 20px;
 }
 
 .dot-navigation-item {

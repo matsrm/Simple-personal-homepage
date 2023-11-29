@@ -16,6 +16,8 @@ body {
     text-align: center;
 }
 
+
+
 #skills.container {
     display: flex;
     justify-content: center;
@@ -26,7 +28,7 @@ body {
 header {
     text-align: center;
     background-color: #000;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 20px;
 }
 

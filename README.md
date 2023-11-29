@@ -7,6 +7,13 @@ The goal of this project is to practice building simple webapps using HTML, CSS 
 ## About The Project
 
 #### Portfolio section
-- Hoverbed -- A hero page
-- WeatherApp
- 
+- Raffle App
+- Drumset
+
+### Raffle app
+
+![Raffle](images/Raffle-app.png)
+
+
+### Drumset
+![Drumset](images/Drumset.png)
